@@ -19,3 +19,11 @@ git clone https://github.com/vamshicreates/indian-film-crew-options.git "$env:US
 ```
 
 Use `$indian-film-crew-options` with a film brief and budget. The skill reads the live Google Sheet through the Google Drive connector each time. The included Excel workbook is a blank offline template, not a synchronized copy of the live database.
+
+
+## How to use
+
+1. Install the skill with the command above and connect Codex to the live Indian Film Technician Database through Google Drive.
+2. Provide a film brief, production region, approximate budget, and any must-have crew roles.
+3. Ask: “Use `$indian-film-crew-options` to propose two crew packages for this film.”
+4. Review each person’s sourced credits, availability assumptions, role fit, and budget tradeoffs before contacting anyone.
